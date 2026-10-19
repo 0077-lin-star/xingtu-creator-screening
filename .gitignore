@@ -1,0 +1,35 @@
+# Local project data and generated deliverables
+output/
+outputs/
+试跑/
+截图/
+版本记录/
+references/projects/
+*.xlsx
+*.xls
+*.csv
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.zip
+*run-record*.json
+*capture*.json
+*.ndjson
+
+# Browser sessions and secrets
+chrome-profile/
+browser-profile/
+.env
+.env.*
+*.pem
+*.key
+storage-state*.json
+cookies*.json
+
+# Local dependencies and editor files
+node_modules/
+.venv/
+__pycache__/
+.DS_Store
+Thumbs.db
